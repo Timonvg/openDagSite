@@ -1,0 +1,150 @@
+.logo{
+  width: 120px;
+  height: auto;
+}
+
+html{
+  padding: 0px;
+  margin: -10px;
+  overflow: scroll;
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+  .headerlinks {
+      width: 700px;
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+  }
+  .header{
+      overflow: hidden;
+      background-color: #009dff;
+      padding: 20px 20px;
+  
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .schoolshedule img  {
+    max-width: 100%;
+  }
+  .blokken img  {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .headerlinks {
+      width: 200px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+  }
+  .header{
+      overflow: hidden;
+      background-color: #009Dff;
+      padding: 20px 20px;
+  
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .logo{
+      width: 120px;
+      height: 40px !important;
+  }
+  .gridcontainer{
+      display: flex !important;
+      flex-direction: column !important;
+  }
+  .informationschool p h1{
+      font-size: 20px;
+  }
+  .schoolshedule img  {
+    max-width: 100%;
+  }
+  .blokken img  {
+    max-width: 100%;
+  }
+}
+
+.introduction{
+  height: 600px;
+  width: 101vw;
+  background-image: url("../img/locatie1.jpg");
+  background-position: 10%, 10%;
+  overflow: hidden;
+}
+
+.introduction p{
+  text-align: center;
+  font-size: 40px;
+  color: black;
+} 
+
+.introtext{
+  border: 1px solid rgba(0, 80, 255, .7);
+
+  width: 100vw !important;
+  background-color: rgba(87, 221, 239, 0.4);
+}
+
+.subjectsmain
+{
+  margin: auto;
+}
+
+.schoolshedule
+{
+  text-align: center;
+}
+
+.container{
+  padding-left: 20vw;
+  padding-right: 20vw;
+  max-width: 80vw;
+}
+
+.outercontainer{
+  background-color: rgba(87, 221, 239, 0.8);
+  margin-top: 10px;
+}
+
+.informationschool{
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.subjectcard{
+  border: 0px solid rgb(43, 221, 93);
+  background-color: rgba(43, 221, 93, .3);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.subjectcard h3{
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cardcontent{
+  margin: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
