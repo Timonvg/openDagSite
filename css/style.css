@@ -75,6 +75,10 @@ html, body {
   }
 }
 
+.cardcontent img{
+  width: 50px;
+}
+
 .introduction{
   height: 600px;
   width: 101vw;
@@ -136,14 +140,32 @@ html, body {
   text-align: center;
 }
 
+.teacherscard .cardcontent{
+  background-color: rgba(43, 221, 93, .3);
+  border-radius: 30px;
+  text-align: center;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.teacherscard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cardcontent {
+  flex: 0 0 calc(33.33% - 20px);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .subjectcard h3{
   font-weight: 300;
   font-style: italic;
 }
 
-.cardcontent{
-  margin: 20px;
-}
 
 html {
   scroll-behavior: smooth;
