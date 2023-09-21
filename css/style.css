@@ -151,7 +151,7 @@ html, body {
 
 .teacherscard {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .cardcontent {
@@ -166,7 +166,16 @@ html, body {
   font-style: italic;
 }
 
+.whichteacher{
+  text-align: center;
+}
+
 
 html {
   scroll-behavior: smooth;
+}
+
+footer{
+  text-align: center;
+  background-color: #009dff;
 }
